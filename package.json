@@ -39,5 +39,8 @@
   "devDependencies": {
     "prettier": "3.3.3",
     "prettier-plugin-packagejson": "2.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
