@@ -1,0 +1,43 @@
+{
+  "name": "@rbardini/time-duration",
+  "version": "0.0.0-development",
+  "description": "A web component to format `<time>` elements with the elapsed time",
+  "keywords": [
+    "time",
+    "duration",
+    "elapsed",
+    "temporal",
+    "web-component"
+  ],
+  "homepage": "https://github.com/rbardini/time-duration",
+  "bugs": {
+    "url": "https://github.com/rbardini/time-duration/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbardini/time-duration.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rafael Bardini",
+    "email": "rafael@rbardini.com",
+    "url": "https://rbardini.com/"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./polyfill": "./polyfill.js",
+    "./register": "./register.js",
+    "./polyfill+register": "./polyfill+register.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "format": "prettier ."
+  },
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "prettier-plugin-packagejson": "2.5.2"
+  }
+}
